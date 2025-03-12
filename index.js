@@ -26,7 +26,7 @@ app.get('/calculate-returns', (req, res) => {
   res.send(returnValue.toString());
 });
 
-//Endpoint 2: Calculate the Total Returns
+//Endpoint 2: Calculate the Total Returns3
 app.get('/total-returns', (req, res) => {
   let stock1 = parseFloat(req.query.stock1);
   let stock2 = parseFloat(req.query.stock2);
